@@ -39,7 +39,7 @@ In case all of this is new to you, here's a detailed installation guide for Wind
     5. Run `Python -m venv venv` in the project base directory (`ok_garmin`)
     6. Run `.\venv\Scripts\activate.bat`
     7. Run `Python -m pip install -r requirements.txt`
-    8. Now your environment is set up and you can close the terminal. For future re-activations, you can skip every step except `2.6.`
+    8. Now your environment is set up and you can close the terminal. For future re-activations, you can skip every step except `2.vi.`
 3. Set up the microphone device ID
     1. Run `Python print_mic_ids.py`
     2. Note the ID of your microphone (usually 1)
@@ -47,7 +47,7 @@ In case all of this is new to you, here's a detailed installation guide for Wind
     4. Modify the line `INPUT_DEVICE_ID = -1` by changing `-1` to your microphone ID
     5. Save and close
 4. Running the application
-    1. Do steps `2.3.`, `2.4.` and `2.6.` 
+    1. Do steps `2.iii.`, `2.iv.` and `2.vi.` 
     2. Then run `Python ok_garmin.py`
     3. Accept microphone access for Python (in pop-up window)
     4. Terminate application by closing the terminal or `Ctrl+C`
